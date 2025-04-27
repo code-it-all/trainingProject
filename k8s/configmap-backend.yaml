@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-config
+data:
+  MONGO_URI: mongodb://mongo-service:27017/mern-ecommerce
+  JWT_SECRET: Th!S !S@_S3Cr3t
